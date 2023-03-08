@@ -1,0 +1,8 @@
+flutter_native_splash:
+  color: "#d2e3fd"
+  image: "assets/icons/splash.png"
+  android: true
+  ios: true
+
+# Executar este comando no terminal para gerar a splash screen do app
+# flutter pub run flutter_native_splash:create

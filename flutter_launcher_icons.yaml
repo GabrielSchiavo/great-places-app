@@ -1,0 +1,20 @@
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/icon.png"
+  adaptive_icon_background: "#d2e3fd"
+  adaptive_icon_foreground: "assets/icons/adaptative-icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icons/icon.png"
+    background_color: "#d2e3fd"
+    theme_color: "#673AB7"
+  windows:
+    generate: true
+    image_path: "assets/icons/icon.png"
+    icon_size: 256 # min:48, max:256, default: 48
+
+# Executar este comando no terminal para gerar os icones do app
+# flutter pub run flutter_launcher_icons:main
